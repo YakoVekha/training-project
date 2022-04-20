@@ -1,0 +1,206 @@
+*,
+*:: before,
+*:: after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: #212121;
+}
+
+ul, ol, li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+html, body {
+	height: 100%;
+	line-height: 1;
+}
+
+body {
+	overflow-x: hidden;
+	font-family: Open Sans;
+	font-size: 15px;
+	color: #212121;
+}
+
+input {
+	border: 0;
+	border-bottom: 1px solid #cecece;
+	outline: 0;
+
+}
+
+.wrapper {
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+/*--HEADER--*/
+.header {
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background-color: #000;
+	z-index: 50;
+	
+}
+
+.header_container {
+	max-width: 1137px;
+	max-height: 70px;
+	display: flex;
+	align-items: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.menu {
+	flex: 1 1 auto;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.menu_list {
+	display: flex;
+	padding-left: 535px;
+}
+
+.menu_link {
+	color: #fff;
+	padding-left: 48px;
+	margin-left: 30px;
+}
+/*--MAIN--*/
+.main {
+	flex: 1 1 auto;
+}
+.main_container {
+	max-width: 1137px;
+}
+
+.cover {
+	position: absolute;
+	left: 0;
+}
+
+.axit {
+	position: absolute;
+	margin-top: 180px;
+	z-index: 49;
+}
+
+.h1 {
+	position: absolute;
+	color: #fff;
+	margin-top: 250px;
+	z-index: 48;
+	font-family: Raleway;
+	font-size: 40px;
+}
+
+.line {
+	position: absolute;
+	z-index: 47;
+	margin-top: 360px;
+}
+
+.p_main {
+	position: absolute;
+	font-family: Raleway;
+	font-weight: 300;
+	margin-top: 380px;
+	z-index: 46;
+	color: #fff;
+}
+
+.download {
+	position: absolute;
+	border-style: solid;
+	border-color: #fff;
+	border-width: 2px;
+	z-index: 45;
+	margin-top: 460px;
+	font-weight: 600;
+	padding: 10px 25px;
+	color: #fff;
+}
+
+.form_header {
+	position: absolute;
+	font-weight: 700;
+	background-color: #f5f5f5;
+	margin-top: 200px;
+	margin-left: 940px;
+	padding: 20px 52px;
+	z-index: 44;
+
+}
+
+.card {
+	position: absolute;
+	background-color: #fff;
+	margin-top: 255px; 
+	margin-left: 940px;
+	padding: 40px 54px;
+	z-index: 43;
+}
+
+.block {
+	color: #cecece;
+}
+.but {
+	position: absolute;
+	margin-top: 436px;
+	margin-left: 932px;
+	padding: 21px 105px;
+	background-color: #ff9b51;
+	color: #fff;
+	font-weight: 600;
+	z-index: 50;
+	border-width: 0;
+}
+/*--AWESOME--*/
+.head {
+	position: absolute;
+	z-index: 50;
+	margin-top: 800px;
+	margin-left: 450px;
+	text-align: center;
+}
+
+.design {
+	position: absolute;
+	z-index: 50;
+	margin-top: 1000px;
+	margin-left: 10px;
+	text-align: center;
+}
+.crafted {
+	position: absolute;
+	z-index: 50;
+	margin-top: 1000px;
+	margin-left: 450px;
+	text-align: center;
+}
+.customize {
+	position: absolute;
+	z-index: 50;
+	margin-top: 1000px;
+	margin-left: 880px;
+	text-align: center;
