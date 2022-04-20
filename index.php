@@ -6,9 +6,7 @@ if(isset($_POST["button"])) {
 	$email=$_POST['email'];
 
 	$connection=mysqli_connect('localhost', 'root', '', 'my_database');
-	if($connection){
-		print_r('YEEH');
-	}
+	
 	$query="INSERT INTO users (user_name, password, email) VALUES ('$login', '$password', '$email');";
 	$query_result=mysqli_query($connection, $query);
 }
